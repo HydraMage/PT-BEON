@@ -1,0 +1,23 @@
+{
+    "name": "community-management-backend",
+    "version": "1.0.0",
+    "description": "Backend for community management application",
+    "main": "src/app.js",
+    "scripts": {
+        "start": "node src/app.js",
+        "dev": "nodemon src/app.js"
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "dotenv": "^16.0.3",
+        "express": "^4.18.2",
+        "mysql2": "^3.1.2",
+        "sequelize": "^6.30.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.22",
+        "sequelize-cli": "^6.6.2"
+    },
+    "author": "Your Name",
+    "license": "ISC"
+}
